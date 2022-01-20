@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEST 4</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>Video embedding, tables, forms and lists</h1>
+      </header>
+    </div>
+    <div>
+      <ul>
+        <h3>Items in this test</h3>
+        <li>Forms</li>
+        <li>Lists</li>
+        <li>Tables</li>
+        <li>Video embedding</li>
+      </ul>
+    </div>
+    <div>
+      <main>
+        <iframe
+          width="360"
+          height="315"
+          src="https://www.youtube.com/embed/5llH4mJ8Cxo"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <table>
+          <th>
+            <tr>
+              <th>S.No</th>
+              <th>Player</th>
+              <th>Score</th>
+            </tr>
+          </th>
+          <tbody>
+            <tr>
+              <th>1</th>
+              <th>ABC</th>
+              <th>100</th>
+            </tr>
+            <tr>
+              <th>2</th>
+              <th>DEF</th>
+              <th>200</th>
+            </tr>
+            <tr>
+              <th>3</th>
+              <th>GHI</th>
+              <th>300</th>
+            </tr>
+          </tbody>
+          <caption>
+            <b>Scores</b>
+          </caption>
+        </table>
+      </main>
+      <hr />
+    </div>
+    <footer>
+      <div>
+        Form for something to fill!
+        <hr />
+        <form action="form.php">
+          <input type="text" placeholder="Enter Something!" /><br />
+          <label for="optionid1">
+            <input
+              type="radio"
+              value="Red Pill"
+              name="option"
+              id="optionid1"
+            />Red Pill
+          </label>
+          <label for="optionid2">
+            <input
+              type="radio"
+              value="Blue Pill"
+              name="option"
+              id="optionid2"
+            />Blue Pill </label
+          ><br />
+          <input
+            type="email"
+            name="email"
+            id="emailid"
+            placeholder="something@email.com"
+          /><br />
+          <label for="checkid">
+            <input type="checkbox" name="check" id="checkid" />Agree to submit?
+          </label>
+        </form>
+      </div>
+      <div>
+        <video controls width="350" muted autoplay>
+
+          <source src="Rabbit_0004.mp4"
+                  type="video/mp4">
+      
+          Sorry, your browser doesn't support embedded videos.
+      </video>
+      </div>
+    </footer>
+  </body>
+</html>
